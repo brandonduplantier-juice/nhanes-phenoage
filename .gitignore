@@ -1,0 +1,7 @@
+# raw NHANES and mortality downloads (public domain, refetchable, large)
+data/raw/
+data/merged.csv
+__pycache__/
+*.pyc
+.venv/
+# data/analysis.csv is the derived, de-identified cohort committed for the app

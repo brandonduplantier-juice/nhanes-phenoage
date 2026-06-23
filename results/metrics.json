@@ -1,0 +1,17 @@
+{
+  "n_people": 28510,
+  "n_deaths": 6265,
+  "median_followup_months": 155.0,
+  "accel_slope_phenoage_on_age": 1.0704583150037945,
+  "hr_per_year_accel": 1.0445399886212077,
+  "hr_accel_ci": [
+    1.0425020287591584,
+    1.0465819324375174
+  ],
+  "cindex_age": 0.8475399243770367,
+  "cindex_phenoage": 0.8652751433604375,
+  "cindex_gain": 0.017735218983400802,
+  "cindex_age_10yr": 0.8471097635813168,
+  "cindex_phenoage_10yr": 0.8677950979431318,
+  "cindex_gain_10yr": 0.020685334361814967
+}
