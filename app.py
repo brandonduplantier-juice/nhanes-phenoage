@@ -81,6 +81,26 @@ with st.expander("New here? How to read this", expanded=False):
         "you your own biological age."
     )
 
+with st.expander("Key terms"):
+    st.markdown(
+        "- **NHANES**: a large US government health survey that measured blood tests on "
+        "thousands of people and tracked who lived or died over time.\n"
+        "- **Biomarker**: a measurable signal, like a blood-test value, that stands in "
+        "for something harder to measure directly.\n"
+        "- **PhenoAge**: a published formula that turns nine routine blood tests plus age "
+        "into a single biological-age estimate.\n"
+        "- **Biological age**: how old the body seems from those biomarkers, which can "
+        "differ from age in years.\n"
+        "- **Age acceleration**: the gap between biological age and actual age. Positive "
+        "means aging faster.\n"
+        "- **Survival analysis**: statistics for time-until-an-event questions that "
+        "correctly handle people still alive when the study ends.\n"
+        "- **Cox proportional hazards**: the standard survival model used here.\n"
+        "- **Hazard ratio**: how much risk changes per unit. Above 1 means higher risk.\n"
+        "- **C-index**: how well a number sorts who lives longer, from 0.5 (chance) to "
+        "1.0 (perfect)."
+    )
+
 if meta:
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("People", "{:,}".format(meta.get("n_people", len(df))),
