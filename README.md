@@ -121,3 +121,7 @@ why the C-index gain looks modest even though the age-adjusted hazard ratio is c
 Method: Levine et al., Aging 2018. Data: NHANES 1999 to 2010 and the NCHS Public-Use
 Linked Mortality Files (2019 release). Population-level research, not personal medical
 advice.
+
+## Project navigation
+
+- [Engineering guide](ENGINEERING.md): directory map, development workflow and review standards.
