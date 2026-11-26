@@ -5,3 +5,9 @@ __pycache__/
 *.pyc
 .venv/
 # data/analysis.csv is the derived, de-identified cohort committed for the app
+
+# Local development artifacts
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.ipynb_checkpoints/
